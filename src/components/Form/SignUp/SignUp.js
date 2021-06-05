@@ -5,8 +5,6 @@ import Form from '../form';
 import '../form.css';
 import { signUpApi } from '../../../service/auth';
 import TextField from '../../Input/TextField';
-
-const EMAIL_REGEX = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 class SignIn extends React.Component {
   constructor(props) {
     super(props);
@@ -30,7 +28,7 @@ class SignIn extends React.Component {
     e.preventDefault();
     const { firstName, lastName, email, password } = this.state;
     if (!(firstName === '' || lastName === '' || email === '' || password === '')
-      && (EMAIL_REGEX.test(email))) {
+     ) {
     await  signUpApi({ firstName, lastName, email, password })
         .then(res => {
           this.setState({
