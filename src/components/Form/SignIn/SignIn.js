@@ -34,6 +34,7 @@ class SignIn extends React.Component {
           redirect: true
         });
       }).catch(err => {
+        alert("Auth Fail");
         console.log(err);
       });
     } else {
