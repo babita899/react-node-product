@@ -1,0 +1,12 @@
+export const AUTH_START = 'AUTH_START';
+export const AUTH_SUCCESS = 'AUTH_SUCCESS';
+export const AUTH_FAIL = 'AUTH_FAIL';
+export const AUTH_LOGOUT = 'AUTH_LOGOUT';
+export const SET_REDIRECT_PATH = 'SET_REDIRECT_PATH';
+export const SIGNUP_SUCCESS = 'SIGNUP_SUCCESS';
+export const PRODUCT_LIST = 'PRODUCT_LIST';
+export const ADD_PRODUCT = 'ADD_PRODUCT';
+
+export const UPDATE_PRODUCT = 'UPDATE_PRODUCT';
+
+export const DELETE_PRODUCT = 'DELETE_PRODUCT';

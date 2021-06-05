@@ -1,0 +1,27 @@
+.product{
+  margin: 1%;
+border:3px solid black;
+}
+.imageCss{
+  max-width: 200px;
+  min-width: 200px;
+}
+.ctn{
+  display: flex;
+  justify-content: center;
+}
+.product-detail{
+  display: flex;
+  justify-content: center;
+}
+.product-detail-container{
+  width:167px
+}
+.btn-css{
+  padding:10px;
+  margin:2px 13px -1px 17px;
+}
+.edit-btn{
+ margin: 3px 2px 0px 26px;
+}
+   
